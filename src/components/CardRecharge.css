@@ -1,0 +1,19 @@
+.card-recharge {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .card-image {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .recharge-button {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  

@@ -1,0 +1,83 @@
+/* Shop.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+}
+
+.nav a {
+  margin: 0 15px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-button {
+  background-color: #444;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.shop-content {
+  padding: 50px;
+  text-align: center;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filter-button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  color: black; /* Cambia el color del texto a negro */
+}
+
+.filter-button:hover {
+  background-color: #e0e0e0; /* Efecto hover para cambiar el fondo al pasar el ratón */
+}
+
+.book-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.book-item {
+  width: 200px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  margin: 10px;
+  text-align: center;
+}
+
+.book-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

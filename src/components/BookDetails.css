@@ -1,0 +1,40 @@
+.book-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .book-info {
+    display: flex;
+  }
+  
+  .book-image {
+    width: 300px;
+    margin-right: 20px;
+  }
+  
+  .book-meta {
+    font-size: 1.1em;
+  }
+  
+  .book-actions {
+    text-align: right;
+  }
+  
+  .book-actions ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .book-actions li {
+    margin-bottom: 10px;
+  }
+  
+  .buy-button {
+    background-color: #444;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
